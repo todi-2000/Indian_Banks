@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Indian_Banks',
-         'USER':'postgres',
-         'PASSWORD':'qazwsx',
-         'HOST':'localhost'
+        'NAME': 'lctiaqqa',
+         'USER':'lctiaqqa',
+         'PASSWORD':'RLYNnkVpLVPpy7lK2HgNfrUP9vxFBaOJ',
+         'HOST':'ruby.db.elephantsql.com'
     }
 }
 
