@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '(rt!x_k!ps#^ns&d#9rie&gg1!$mzcsd53^2bmql!1_t$2tcz&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lctiaqqa',
-         'USER':'lctiaqqa',
-         'PASSWORD':'RLYNnkVpLVPpy7lK2HgNfrUP9vxFBaOJ',
-         'HOST':'ruby.db.elephantsql.com'
+        'NAME': 'Indian_Banks',
+         'USER':'postgres',
+         'PASSWORD':'qazwsx',
+         'HOST':'localhost'
     }
 }
 
