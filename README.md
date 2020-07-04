@@ -10,11 +10,11 @@ python manage.py runserver
 ```
 ## Urls:
 ```
-1. http://127.0.0.1:8000/api/{ifsccode}
+1. http://127.0.0.1:8000/api/ifsc/{ifsccode}
 For example: http://127.0.0.1:8000/api/BARB0KHATOD
 ```
 ```
-2. http://127.0.0.1:8000/api/{city}/{bankname}
+2. http://127.0.0.1:8000/api/city/{city}/{bankname}
 For example: http://127.0.0.1:8000/api/NOIDA/HDFC BANK
 ```
 
